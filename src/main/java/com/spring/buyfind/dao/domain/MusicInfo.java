@@ -1,10 +1,5 @@
 package com.spring.buyfind.dao.domain;
 
-/**
- * @Author MAI JIAHAO
- * @Date 2019/4/29 14:25
- * @Version 1.0
- */
 public class MusicInfo {
     //主键id
     private  Integer id;
@@ -75,9 +70,9 @@ public class MusicInfo {
     public String toString(){
         return "MusicInfo{"+
                 "id=" + id +
-                ",singerName='" + singerName + '\'' +
-                ",musicSize='" + musicSize + '\'' +
-                ",musicName='" + musicName + '\'' +
+                ",singerNames='" + singerName + '\'' +
+                ",musicSizes='" + musicSize + '\'' +
+                ",musicNames='" + musicName + '\'' +
                 '}';
     }
 }
