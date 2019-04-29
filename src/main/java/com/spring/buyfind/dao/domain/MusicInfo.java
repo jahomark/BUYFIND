@@ -70,9 +70,9 @@ public class MusicInfo {
     public String toString(){
         return "MusicInfo{"+
                 "id=" + id +
-                ",singerNames='" + singerName + '\'' +
-                ",musicSizes='" + musicSize + '\'' +
-                ",musicNames='" + musicName + '\'' +
+                ",singerName='" + singerName + '\'' +
+                ",musicSize='" + musicSize + '\'' +
+                ",musicName='" + musicName + '\'' +
                 '}';
     }
 }
